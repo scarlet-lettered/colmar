@@ -1,0 +1,70 @@
+body {
+  color: gray;
+  width: 100%;
+}
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  height: 64px;
+  z-index: 1;
+  background-color: white;
+  font-family: "Verdana", sans-serif;
+  top: 0;
+
+}
+
+.container {
+  padding: 16px 24px;
+}
+
+.logo-title {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  height: 32px;
+  margin-left: 24px;
+}
+
+
+nav {
+display: flex;
+align-items: flex-end;
+
+}
+
+nav span {
+  display: inline-block;
+  padding-right: 24px;
+}
+
+
+/* Banner Section */
+
+.banner {
+  background-color: #DCB947;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.banner-left {
+
+}
+
+.banner-left img {
+width: 60%;
+
+padding: 86px 0px 20px 0;
+}
+
+.banner-right {
+width: 40%;
+}
