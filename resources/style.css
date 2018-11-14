@@ -4,22 +4,45 @@ body {
 font-family: "Helvetica", sans-serif;
 }
 
-
-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 100%;
-  position: fixed;
-  height: 64px;
-  z-index: 1;
-  background-color: white;
-  font-family: "Verdana", sans-serif;
-  top: 0;
-
+a {
+  color: blue;
 }
 
-  /*not sure I need this*/
+h2 {
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 2rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: black;
+}
+
+p {
+  font-size: .9rem;
+  line-height: 1.4;
+}
+
+  /*Header*/
+
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    height: 64px;
+    z-index: 1;
+    background-color: white;
+    font-family: "Verdana", sans-serif;
+    top: 0;
+  }
+
+  /*not sure I need this yet*/
 .container {
   padding: 16px 24px;
   width: 1232px;
@@ -70,24 +93,7 @@ padding: 2rem 1.5rem;
 
 }
 
-h2 {
-  font-size: 2rem;
-  color: black;
-  margin-bottom: 1.5rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding-top: 2rem;
-}
 
-h3 {
-  font-size: 1.2rem;
-  color: black;}
-
-p {
-  font-size: .9rem;
-  line-height: 1.4;
-
-}
 
 .button {
   margin: 2rem 0;
@@ -100,24 +106,24 @@ p {
 }
 
 
-  /*Articles*/
+  /*Article and Information Section*/
 
   .information-article {
     background-color: white;
     max-width: 100%;
-    display: flex;
+    display: flex
+    flex-direction: row;
     padding: 2rem 1.5rem;
-
   }
 
   .article {
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-padding-left: 1.5rem;
-padding-top: 2rem;
-padding-bottom: 2rem;
-width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 60%;
   }
 
   .article img {
@@ -130,10 +136,6 @@ width: 60%;
     font-size: .8rem;
   }
 
-a {
-  color: blue;
-}
-
   .card {
     display: flex;
     flex-direction: column;
@@ -145,3 +147,29 @@ a {
     width: 35%;
     height: auto;
   }
+
+  /*Start Learning Section*/
+
+.start-learning-title {
+  display: inline-block;
+}
+
+.start-learning-section {
+  width: 100%;
+  background-color: lightgray;
+  padding: 4.5rem 2rem;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.learning-row {
+
+  justify-content: space-between;
+}
+
+.learning-card {
+}
+
+.learning-card-image {
+
+}
